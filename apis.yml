@@ -1,8 +1,16 @@
 aid: cardinalops
 name: CardinalOps
-description: CardinalOps is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CardinalOps is a cybersecurity company delivering agentic detection engineering
+  for security operations centers (SOCs). Its Threat Coverage Optimization Platform
+  continuously assesses detection posture across SIEM and EDR tools (Splunk,
+  Microsoft Sentinel, CrowdStrike, SentinelOne, Cortex, Elastic and others), maps
+  existing detections to the MITRE ATT&CK framework, surfaces coverage gaps, and
+  automatically remediates broken or noisy rules. The Agentic Fleet and Cardinal AI
+  use large language models to extract atomic TTPs from threat intelligence and
+  generate new, validated detection rules. CardinalOps is backed by Battery Ventures
+  and serves enterprise SOC teams. It publishes no public developer API; this profile
+  captures the company's public developer-adjacent, security, and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/cardinalops/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,62 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cardinalops.com/wp-content/uploads/2025/03/Website-Thumbnail-Default-Image@2x.jpg
 tags:
 - Company
+- Cybersecurity
+- Security Operations
+- Detection Engineering
+- SIEM
+- Threat Detection
+- MITRE ATT&CK
+- Detection Posture Management
+- Agentic AI
 apis: []
+common:
+- type: Website
+  url: https://cardinalops.com/
+- type: Blog
+  url: https://cardinalops.com/blog/
+- type: Pricing
+  url: https://cardinalops.com/roi-pricing/
+- type: TermsOfService
+  url: https://cardinalops.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://cardinalops.com/privacy-policy/
+- type: Support
+  url: https://cardinalops.com/contact-us/
+- type: SignUp
+  url: https://cardinalops.com/book-a-demo/
+- type: Integrations
+  url: https://cardinalops.com/integrations/
+- type: Compliance
+  url: https://cardinalops.com/security-compliance/
+- type: Conformance
+  url: conformance/cardinalops-conformance.yml
+- type: DomainSecurity
+  url: security/cardinalops-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://cardinalops.com/security-compliance/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    CardinalOps undergoes an annual SOC 2 Type II audit against the AICPA Trust
+    Services Principles and Criteria; report available on request via
+    legal@cardinalops.com.
+- id: gdpr
+  conforms: true
+  evidence: >-
+    Company states it adheres to the requirements of the General Data Protection
+    Regulation (GDPR) and operates as a data processor for its customers.
+- id: iso-27001
+  conforms: false
+- id: hipaa
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: fedramp
+  conforms: false
