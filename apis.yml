@@ -53,6 +53,16 @@ tags:
 - Threat Detection
 - MITRE ATT&CK
 - Detection Posture Management
+- AI Agents
+tags_raw:
+- Company
+- Cybersecurity
+- Security Operations
+- Detection Engineering
+- SIEM
+- Threat Detection
+- MITRE ATT&CK
+- Detection Posture Management
 - Agentic AI
 apis: []
 common:
